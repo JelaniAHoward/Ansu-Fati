@@ -1,0 +1,70 @@
+
+.ansuhomebody {
+  background-image: url("Ansu12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Aldrich'
+}
+
+.aboutansubody {
+  background-color: black;
+  color: white;
+}
+
+.theintro{
+  margin: 0 400px 100px 400px;
+}
+
+.intropic{
+  padding-left: 75px;
+}
+
+.roboto {
+  font-family: 'Roboto';
+}
+
+.flexcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.flexcontainer > div {
+  padding: 100px 0 100px 0;
+  margin: 0 50px 0 50px;
+}
+.statcategory {
+  margin-top: 20px;
+  padding: 45px 100px 0 100px;
+  text-align: center;
+
+}
+
+.clubstats {
+  padding: 0 100px 0 200px;
+  text-align: center;
+
+}
+
+.countrystats {
+  text-align: center;
+  padding: 0 50px 0 50px;
+  margin-right: 100px
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+a {
+
+color: #ffffff;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+}
