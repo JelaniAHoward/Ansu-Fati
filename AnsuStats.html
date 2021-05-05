@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<link rel="stylesheet" href="css/AnsuStyle.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<style media="screen">
+  body {
+    font-family: 'Aldrich';
+    color: #ffffff;
+    background-color: #000000;
+  }
+
+  h1 {
+    font-size: 90px;
+    text-shadow: 2px 2px 10px #ffffff;
+  }
+
+  .flexcontainer2{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 300px;
+  }
+
+.leftstats {
+  border: 1px solid red;
+  border: none;
+  border-radius: 15px;
+  background: #03bafc;
+}
+
+.rightstats {
+  border: 1px solid red;
+  border-radius: 15px;
+  border: none;
+  background-color: #ad0202;
+}
+
+.cs {
+  padding: 0 50px 0 50px;
+}
+
+
+
+.buttons {
+margin: 150px 0 0 600px;
+}
+
+.navbar {
+  list-style-type: none;
+  font-family: 'Roboto';
+  margin: 50px 50px 100px 350px;
+  font-size: 20px;
+
+}
+
+.navitem {
+  display: inline;
+  margin: 0 5px 0 5px;
+  border-right: 1px solid #ffffff;
+  padding-right: 10px;
+
+}
+
+.navitem:hover {
+  text-shadow: 2px 2px 10px #ffffff;
+}
+
+.flexy {
+  display: flex;
+
+}
+
+</style>
+
+    <title>Stats</title>
+
+  </head>
+  <body>
+    <div class="flexy">
+      <div>
+        <h1 style="font-family: 'Aldrich'">Stats</h1>
+      </div>
+        <div>
+          <ul class="navbar">
+            <li class="navitem"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/index.html">Home</a></li>
+            <li class="navitem"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/AboutAnsu.html">About Ansu</a></li>
+            <li class="navitem"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/AnsuNews.html">News</a></li>
+            <li class="navitem"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/AnsuStats.html">Stats</a></li>
+            <li class="navitem"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/AnsuHons.html">Honours and Records</a></li>
+            <li style="border-style: none;"><a href="file:///C:/Users/jahmo/OneDrive/Desktop/Web%20Development/Ansu%20Fati/AnsuGallery.html">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="flexcontainer2" style="margin: auto;">
+      <div class="clubstats">
+        <h3 style="font-size: 50px;">Club</h3>
+        <div style="font-size: 30px;">
+          <p class="leftstats">43</p>
+          <p class="leftstats">13</p>
+          <p class="leftstats">5</p>
+        </div>
+      </div>
+      <div class="statcategory" style="font-size: 20px;">
+        <p>Appearances</p>
+        <p style="padding: 25px 0 17px 0;">Goals</p>
+        <p>Assists</p>
+      </div>
+    <div class="countrystats">
+      <h3 style="font-size: 50px;">Country</h3>
+      <div class="cs" style="font-size: 30px;">
+        <p class="rightstats">4</p>
+        <p class="rightstats">1</p>
+        <p class="rightstats">0</p>
+      </div>
+    </div>
+</div>
+
+
+    <!--Details like possibly dribbles completed, chances created, goals per game,
+    average xG per game, stats for each club (potnetially) respectively and/or different respective seasons
+    etc etc under the totals above-->
+    <button onclick="myFunction1()" class="buttons 21button">2020/21 Season</button>
+    <table class="table table-primary table-striped table-hover align-middle statstable;" id="Table2"  style="width: 75%; margin: 0 auto 100px auto;">
+
+    <thead>
+    <tr>
+      <th scope="col" style="width: 400px;">Competition</th>
+      <th scope="col" style="width: 175px;">Appearances</th>
+      <th scope="col" style="width: 125px;">Goals</th>
+      <th scope="col">Minutes per goal</th>
+      <th scope="col">Assists</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <th scope="row">La Liga</th>
+      <td class="centeralign" style="padding-left:50px;">7</td>
+      <td class="centeralign" style="padding-left:25px;">4</td>
+      <td class="centeralign" style="padding-left:50px;">109'</td>
+      <td class="centeralign" style="padding-left:35px;">1</td>
+    </tr>
+    <tr>
+      <th scope="row">Champions League</th>
+      <td style="padding-left:50px;">3</td>
+      <td style="padding-left:27px;">1</td>
+      <td style="padding-left:55px;">161'</td>
+      <td style="padding-left:33px;">3</td>
+    </tr>
+    </tbody>
+    </table>
+
+<button onclick="myFunction2()" class="buttons">2019/20 Season</button>
+    <table class="table table-primary table-striped table-hover align-middle;" id="Table3" style="width: 75%; margin: 0 auto 100px auto;">
+
+  <thead>
+    <tr>
+      <th scope="col" style="width: 400px;">Competition</th>
+      <th scope="col" style="width: 175px;">Appearances</th>
+      <th scope="col" style="width: 125px;">Goals</th>
+      <th scope="col">Minutes per goal</th>
+      <th scope="col">Assists</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">La Liga</th>
+      <td class="centeralign" style="padding-left:50px;">24</td>
+      <td class="centeralign" style="padding-left:25px;">7</td>
+      <td class="centeralign" style="padding-left:50px;">146'</td>
+      <td class="centeralign" style="padding-left:35px;">1</td>
+    </tr>
+    <tr>
+      <th scope="row">Champions League</th>
+      <td style="padding-left:55px;">5</td>
+      <td style="padding-left:25px;">1</td>
+      <td style="padding-left:50px;">112'</td>
+      <td style="padding-left:35px;">-</td>
+    </tr>
+    <tr>
+      <th scope="row">Copa del Rey</th>
+      <td style="padding-left:55px;">3</td>
+      <td style="padding-left:25px;">-</td>
+      <td style="padding-left:50px;">-</td>
+      <td style="padding-left:35px;">-</td>
+    </tr>
+    <tr>
+      <th scope="row">Supercopa</th>
+      <td style="padding-left:55px;">1</td>
+      <td style="padding-left:25px;">-</td>
+      <td style="padding-left:50px;">-</td>
+      <td style="padding-left:35px;">-</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+function myFunction1() {
+  var x = document.getElementById("Table2");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<script>
+function myFunction2() {
+  var x = document.getElementById("Table3");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+  </body>
+</html>
